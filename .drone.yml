@@ -1,4 +1,5 @@
 image: xiiisins/xiii-drone
 script:
-  - apt-get install libtool autoconf automake cmake g++ pkg-config unzip 
+  - apt-get update
+  - apt-get install -y libtool autoconf automake cmake g++ pkg-config unzip
   - LC_ALL=C make test
