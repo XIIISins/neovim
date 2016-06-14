@@ -1,4 +1,4 @@
 image: xiiisins/xiii-drone
 script:
-  - pacman -S base-devel cmake unzip
+  - apt-get install libtool libtool-bin autoconf automake cmake g++ pkg-config unzip 
   - LC_ALL=C make test
