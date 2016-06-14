@@ -1,0 +1,4 @@
+image: xiiisins/xiii-drone
+script:
+  - pacman -S base-devel cmake unzip
+  - LC_ALL=C make test
